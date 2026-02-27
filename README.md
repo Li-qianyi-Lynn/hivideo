@@ -84,21 +84,13 @@ Usage
 3. You should see logs similar to:
 
    ```text
-   🚀 AI 引擎已启动。分辨率: 1280x720
-   💡 请在 Zoom 摄像头设置中选择 'Python Virtual Camera'。
+   AI engine started
    ```
 
 4. Open **Zoom**, go to **Settings → Video**, and select **Python Virtual Camera** as the camera source.
 
 5. When you want to quickly leave a meeting, wave your hand rapidly left and right in front of the camera.  
-   Once the gesture is detected, you will see a log like:
-
-   ```text
-   检测到‘拜拜’手势！正在执行强制关闭...
-   ```
-
-   Zoom will then be force‑quit.
-
+   
 ---
 
 Configuration
